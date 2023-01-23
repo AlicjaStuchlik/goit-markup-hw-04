@@ -45,7 +45,7 @@ body {
 
 .card-icon {
   padding: 25px 100px;
-  background-color:  var(--second-background-color)
+  background-color: var(--second-background-color);
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -212,8 +212,8 @@ align-items: center;
   list-style: none;
 }
 
+ /* lorem ipsum headers */
 .advantages-name {
-  /* lorem ipsum headers */
   color: var(--primary-color);
   font-size: 14px;
   font-weight: 700;
@@ -221,9 +221,8 @@ align-items: center;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-
+/*lorem ipsum paragraph description */
 .advantages-paragraph {
-  /*lorem ipsum paragraph description */
   font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-color);
@@ -299,6 +298,8 @@ align-items: center;
   font-weight: 500;
   line-height: 1.17;
   text-transform: capitalize;
+  padding-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 
 .our-team-description {
@@ -329,6 +330,7 @@ border-radius: 50px;
   width: 44px;
   height: 44px;
   padding: 12px;
+
 }
 
 .our-clients {
