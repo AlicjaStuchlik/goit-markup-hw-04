@@ -72,14 +72,10 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-header .nav-container {
+.header .nav-container,
+.navigation {
   display: flex;
   height: 80px;
-  justify-content: space-between;
-}
-
-header nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -420,7 +416,7 @@ header nav {
   text-decoration: none;
 }
 
-.footer-social-icons h3 {
+.social-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -445,7 +441,7 @@ header nav {
   margin-bottom: 100px;
 }
 
-.social-list div {
+.div-icon {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -453,8 +449,8 @@ header nav {
   padding: 12px;
 }
 
-.social-list div:hover,
-.social-list div:focus {
+.div-icon:hover,
+.div-icon:focus {
   background-color: var(--span-logo-color);
 }
 
@@ -547,4 +543,11 @@ header nav {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.875;
+}
+
+.social-list,
+.our-client-logo,
+.team-card-icons,
+.menu-icon {
+  cursor: pointer;
 }
