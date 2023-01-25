@@ -165,7 +165,7 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/backgroundimage.jpg);
+    url(../images/background-image.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -460,15 +460,10 @@ body {
 
 /* portfolio website  buttons section as header is the same*/
 
-
 .list-button {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
-}
-
-.list-button:hover,
-.list-button:focus {
 }
 
 .filter-button:not(:last-child) {
@@ -548,6 +543,7 @@ body {
 .social-list,
 .our-client-logo,
 .team-card-icons,
-.menu-icon {
+.menu-icon,
+.image-list {
   cursor: pointer;
 }
